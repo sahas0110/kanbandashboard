@@ -1,0 +1,173 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+  font-family: "Arial";
+}
+body{
+  background: #f0f2f5;
+}
+header{
+  background: white;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+select{
+  width: 100%;
+}
+.input-flex {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 25px;
+  align-items: center;
+  padding: 0 7px;
+  width: 20%;
+  margin-left: 10%;
+  
+}
+.input-flex select {
+  border: none;
+}
+.input-flex select:focus {
+  outline: none;
+}
+
+.optioncontainer{
+  width: 30%;
+  height: auto;
+  background:  #fafbfd;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10%;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow:0px 1px 2px #dad2d2;
+}
+.inputDiv{
+  width: 100%;
+  display:flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+label{
+  color: gray;
+  font-size: 13px;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  background: white;
+
+}
+.cardTitle{
+  color: gray;
+  font-size: 11px;
+}
+.cardContent{
+  font-size: 11px;
+  font-weight: bolder;
+}
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardInfo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+ .userProfile {
+    font-size: 10px;
+    background: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    align-content: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoEllipsis{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-right: 10px;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.featureRequestDot{
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background: silver;
+  margin-right: 10px;
+}
+.featureRequestText{
+  font-size: 10px;
+  color: gray
+}
+.border{
+  border:1px solid silver;
+  padding: 0px 15px;
+  border-radius: 3px;
+}
+.counterBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  margin-left: 20px;
+}
+.cardCountInfo{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.groupTitle{
+  color: #4b4242;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.addButton, .removeButton{
+  margin-right: 5px;
+  color: gray;
+  font-size: 10px;
+}
+.Counticon{
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
